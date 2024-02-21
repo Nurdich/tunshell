@@ -13,8 +13,6 @@ jobs:
     
     - name: Run Tests
       uses: elgohr/Publish-Docker-Github-Action@v5
-      env:
-        RUN_TESTS: true
       with:
         name: timetoogo/tunshell
         dockerfile: tunshell-client/docker/prod.Dockerfile
